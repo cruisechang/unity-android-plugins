@@ -29,4 +29,4 @@ Get AES key c#
 		AndroidJavaObject javaObj = new AndroidJavaObject ("com.cruise.androidtools.AESTools");  
 		return javaObj.Call<byte[]> ("initKey");
 	}
-	</html>
+
